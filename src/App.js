@@ -1,11 +1,14 @@
 import './App.css';
-import Registration from "./Components/Reg";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 
 
 function App() {
   return (
     <div className="App">
-      <Registration/>
+      <Header/>
+      <Footer/>
     </div>
   );
 }
